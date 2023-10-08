@@ -390,7 +390,6 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
     fstab.mt6893 \
     fstab.mt6893.vendor_ramdisk \
     init.cgroup.rc \
