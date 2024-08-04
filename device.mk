@@ -92,8 +92,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth@1.1.vendor \
     audio.bluetooth.default \
-    libbluetooth_audio_session
-    
+    libbluetooth_audio_session \
+    libldacBT_bco
+
     # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
