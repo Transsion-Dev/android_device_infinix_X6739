@@ -35,4 +35,7 @@
     <string name="quick_settings_tiles_default" translatable="false">
         dataswitch,cell,wifi,bt,nfc,wallet,location,internet,hotspot,dnd,reading_mode,night,cast,screenrecord,usb_tether,onthego,flashlight,airplane,rotation,battery
     </string>
+
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
 </resources>
