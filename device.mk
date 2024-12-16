@@ -166,7 +166,8 @@ PRODUCT_PACKAGES += \
 TARGET_HAS_UDFPS := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor:64
+    android.hardware.biometrics.fingerprint@2.1.vendor:64 \
+    android.hardware.biometrics.fingerprint@2.3-service.mt6893
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

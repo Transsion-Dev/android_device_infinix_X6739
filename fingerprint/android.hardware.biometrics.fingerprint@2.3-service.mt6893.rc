@@ -1,0 +1,4 @@
+service vendor.fps_hal_mt6893 /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.mt6893
+    class late_start
+    user system
+    group system
