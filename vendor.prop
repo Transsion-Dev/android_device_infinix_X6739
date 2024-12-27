@@ -22,6 +22,9 @@ ro.vendor.mtk_audio_tuning_tool_ver=V2.2
 ro.vendor.mtk_besloudness_support=1
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
+ro.config.media_vol_default=10
+ro.config.vc_call_vol_default=4
+ro.config.vc_call_vol_steps=11
 ro.vendor.mtk_aal_support=1
 ro.audio.monitorRotation=1
 
