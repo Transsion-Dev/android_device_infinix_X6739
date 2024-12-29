@@ -40,6 +40,8 @@ genfscon sysfs /devices/platform/charger/power_supply/mtk-slv-div-chg/wakeup    
 genfscon sysfs /devices/platform/extcon_usb/wakeup                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/mtk_ctd/power_supply/mtk_charger_type/wakeup                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/odm/odm:tran_auto_test/power_supply/tran-auto-test/wakeup40        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/odm/odm:tran_auto_test/power_supply/tran-auto-test/wakeup40/event_count        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/odm/odm:tran_auto_test/power_supply/tran-auto-test/wakeup         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/odm/odm:usb_switch/power_supply/usb_switch/wakeup                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/pca_dv2_algo/wakeup                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/pe5/wakeup                                                         u:object_r:sysfs_wakeup:s0
