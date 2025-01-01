@@ -25,7 +25,23 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6739 \
+    RisingMaintainer="Eko Rudianto (xoo2001)" \
+    RisingChipset="Mediatek Dimensity 8050" \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:12/SP1A.210812.016/241017V722:user/release-keys
 
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_PACKAGES += \
+   MarkupGoogle \
+   LatinIMEGooglePrebuilt \
+   Velvet \
+   AvatarPicker \
+   PrebuiltDeskClockGoogle
+
+PRODUCT_NO_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_HAS_UDFPS := false
+TARGET_USE_GOOGLE_TELEPHONY := true
+RISING_MAINTAINER := Eko Rudianto (xoo2001)
+
