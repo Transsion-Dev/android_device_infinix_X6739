@@ -91,8 +91,11 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth@1.1.vendor \
     audio.bluetooth.default \
-    libbluetooth_audio_session \
-    libldacBT_bco
+    libbluetooth_audio_session
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/libshims/libldacBT_bco:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_bco.so \
+    $(LOCAL_PATH)/libshims/libldacBT_bco:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_bco.so
 
     # Camera
 PRODUCT_PACKAGES += \
