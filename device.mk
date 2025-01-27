@@ -74,7 +74,9 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor
 
 PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
     MtkInCallService
+
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
