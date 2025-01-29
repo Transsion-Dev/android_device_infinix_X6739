@@ -7,6 +7,7 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt      
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonHbd          u:object_r:hal_fingerprint_hwservice:s0
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonFido         u:object_r:hal_fingerprint_hwservice:s0
 vendor.mediatek.hardware.biometrics.fingerprint::ITranBiometricsFingerprint         u:object_r:hal_fingerprint_hwservice:s0
+vendor.rafi.touch::IFingerprintOnDisplay                                        u:object_r:hal_lineage_touch_hwservice:s0
 
 # Google
 vendor.google.wireless_charger::IWirelessCharger                                    u:object_r:hal_wlc_hwservice:s0

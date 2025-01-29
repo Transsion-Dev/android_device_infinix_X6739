@@ -387,4 +387,12 @@
             <instance>default</instance>
         </interface>
     </hal>
+        <hal format="hidl" optional="true">
+        <name>vendor.rafi.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintOnDisplay</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

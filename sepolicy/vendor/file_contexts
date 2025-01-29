@@ -18,6 +18,7 @@
 /(system\/vendor|vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-mediatek    u:object_r:hal_fingerprint_default_exec:s0
 /sys/kernel/tran_fp(/.*)?                                                                       u:object_r:sysfs_fp_name_path:s0
 /data/vendor/goodix/gf_data(/.*)?                                                               u:object_r:vendor_gf_data_file:s0
+/(vendor|system/vendor)/bin/hw/vendor\.rafi\.touch@1\.0-service\.fod           u:object_r:hal_lineage_touch_default_exec:s0
 
 # kmsetkey
 /(vendor|system\/vendor)/bin/kmsetkey_ca.trustonic                                              u:object_r:trustonic_kmsetkey_ca_exec:s0
