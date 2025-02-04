@@ -25,4 +25,26 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6739 \
+    RisingChipset="Mediatek Dimensity 8050" \
+    RisingMaintainer="Megumin (RyX33N)" \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:12/SP1A.210812.016/241017V722:user/release-keys
+
+PRODUCT_PACKAGES += \
+   MarkupGoogle \
+   LatinIMEGooglePrebuilt \
+   AiWallpapers \
+   WallpaperEmojiPrebuilt \
+   PrebuiltDeskClockGoogle \
+   AvatarPicker \
+   Velvet
+
+# Rising OS
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+RISING_MAINTAINER := Megumin (RyX33N)
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_GOOGLE_TELEPHONY := true
