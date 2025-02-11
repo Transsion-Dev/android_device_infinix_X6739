@@ -29,9 +29,6 @@ vendor.camera.tran.nums=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Display
-persist.sys.brightness.low.gamma=true
-
 # Fuse passthrough
 persist.sys.fuse.passthrough.enable=true
 

@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/infinix/X6739/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 TARGET_DISABLE_EPPE := true
-PRODUCT_NAME := lineage_X6739
+PRODUCT_NAME := yaap_X6739
 PRODUCT_DEVICE := X6739
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_BRAND := Infinix
