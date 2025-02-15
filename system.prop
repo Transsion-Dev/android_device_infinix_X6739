@@ -64,6 +64,11 @@ pm.dexopt.inactive=verify
 pm.dexopt.cmdline=verify
 pm.dexopt.shared=speed
 
+# DroidX-ify
+ro.droidx.maintainer=Megumin27 (RyX33N)
+ro.droidx.chipset=Mediatek Dimensity 8050
+ro.droidx.display_resolution=6.67" AMOLED 1080x2400
+
 # Fuse passthrough
 persist.sys.fuse.passthrough.enable=true
 
