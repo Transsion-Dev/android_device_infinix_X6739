@@ -93,11 +93,9 @@ function blob_fixup() {
         vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml)
             sed -i 's/1.1/1.2/' "$2"
             ;;
-        vendor/bin/hw/vendor.rafi.touch@1.0-service.fod)
-            grep -q vendor.mediatek.hardware.biometrics.fingerprint@2.1.so "$2" || "$PATCHELF" --add-needed "vendor.mediatek.hardware.biometrics.fingerprint@2.1.so" "$2"
-            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v31.so" "${2}"
-            "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v31.so" "${2}"
-            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v31.so" "${2}"
+        vendor/etc/init/vendor.rafi.touch@1.0-service.fod.rc)
+            sed -i 's/system\//vendor\//g' "${2}"
+            ;;
     esac
 }
 

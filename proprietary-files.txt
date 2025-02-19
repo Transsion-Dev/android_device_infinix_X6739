@@ -1244,10 +1244,9 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so
 
 # Fingerprint (FOD) - from H0AMSI
-vendor/bin/hw/vendor.rafi.touch@1.0-service.fod
-vendor/etc/init/vendor.rafi.touch@1.0-service.fod.rc
--vendor/etc/vintf/manifest/vendor.rafi.touch@1.0-service.fod.xml
-vendor/lib64/vendor.rafi.touch@1.0.so
+system/bin/hw/vendor.rafi.touch@1.0-service.fod:vendor/bin/hw/vendor.rafi.touch@1.0-service.fod
+system/etc/init/vendor.rafi.touch@1.0-service.fod.rc:vendor/etc/init/vendor.rafi.touch@1.0-service.fod.rc
+system/lib64/vendor.rafi.touch@1.0.so:vendor/lib64/vendor.rafi.touch@1.0.so
 
 # Firmware
 vendor/firmware/BT_FW.cfg

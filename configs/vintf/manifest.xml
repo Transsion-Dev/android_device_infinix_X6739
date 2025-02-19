@@ -261,6 +261,11 @@
         <fqname>@1.0::IVideoTelephony/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.rafi.touch</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IFingerprintOnDisplay/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.transsion.hardware.tranlog</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ITranLog/default</fqname>
