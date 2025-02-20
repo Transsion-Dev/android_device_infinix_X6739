@@ -71,6 +71,9 @@ BOARD_KERNEL_CMDLINE += pm.sleep_mode=1
 # Display
 TARGET_SCREEN_DENSITY := 396
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Kernel
 TARGET_NO_KERNEL_OVERRIDE := true
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers

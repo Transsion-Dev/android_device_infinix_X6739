@@ -93,8 +93,8 @@ function blob_fixup() {
         vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml)
             sed -i 's/1.1/1.2/' "$2"
             ;;
-        vendor/etc/init/vendor.rafi.touch@1.0-service.fod.rc)
-            sed -i 's/system\//vendor\//g' "${2}"
+        vendor/lib64/hw/gf_fingerprint.goodix.default.so)
+            "${PATCHELF_0_17_2}" --set-soname "gf_fingerprint.goodix.default.so" "${2}"
             ;;
     esac
 }
