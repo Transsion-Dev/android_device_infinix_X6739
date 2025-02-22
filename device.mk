@@ -122,11 +122,11 @@ PRODUCT_COPY_FILES += \
 # Dalvik configs
 PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.heapstartsize=16m \
-    dalvik.vm.heapgrowthlimit=256m \
-    dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.heapminfree=8m \
-    dalvik.vm.heapmaxfree=32m
+    dalvik.vm.heapgrowthlimit=224m \
+    dalvik.vm.heapsize=448m \
+    dalvik.vm.heaptargetutilization=0.72 \
+    dalvik.vm.heapminfree=6m \
+    dalvik.vm.heapmaxfree=24m
 
 # Display
 TARGET_SCREEN_HEIGHT := 2400
