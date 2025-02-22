@@ -26,3 +26,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6739 \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:12/SP1A.210812.016/241017V722:user/release-keys
+
+# 2by2-ify
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_EXTRA_APPS := false
+CUSTOM_MAINTAINER := Megumin27
