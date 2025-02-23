@@ -26,3 +26,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6739 \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:12/SP1A.210812.016/241017V722:user/release-keys
+
+# Lineage-Ext
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := false
