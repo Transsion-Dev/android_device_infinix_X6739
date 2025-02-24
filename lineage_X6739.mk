@@ -26,3 +26,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6739 \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:12/SP1A.210812.016/241017V722:user/release-keys
+
+# Axion-ify
+AXION_CAMERA_REAR_INFO := 108,2,2
+AXION_CAMERA_FRONT_INFO := 32
+AXION_MAINTAINER := Megumin27
+AXION_PROCESSOR := Mediatek_Dimensity_8050
