@@ -230,6 +230,10 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor \
     libnetutils.vendor
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.transsion
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
@@ -251,8 +255,7 @@ PRODUCT_COPY_FILES += \
 
 # NDK
 PRODUCT_PACKAGES += \
-    android.hardware.gnss-V1-ndk.vendor \
-    android.hardware.light-V1-ndk.vendor
+    android.hardware.gnss-V1-ndk.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
