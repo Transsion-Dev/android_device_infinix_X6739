@@ -1133,7 +1133,7 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6893/vulkan.mali.so;SYMLINK=vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/hw/hwcomposer.mt6893.so
+vendor/lib64/hw/hwcomposer.mt6893.so|699c30cee696480e23b6b2160c5c429048857c20
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/mt6893/arm.graphics-V1-ndk_platform.so;SYMLINK=vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/mt6893/arm.graphics-ndk_platform.so;SYMLINK=vendor/lib64/arm.graphics-ndk_platform.so
