@@ -14,6 +14,18 @@ $(call inherit-product, device/infinix/X6739/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+AXION_CAMERA_REAR_INFO := 108,2,2
+ AXION_CAMERA_FRONT_INFO := 32
+ AXION_MAINTAINER := xoo2001
+ AXION_PROCESSOR := Mediatek_Dimensity_8050
+ AXION_CPU_SMALL_CORES := 0,1,2,3,4,5
+ AXION_CPU_BIG_CORES := 6,7
+
+# AxionOS scheduling properties
+ PRODUCT_SYSTEM_PROPERTIES += \
+     persist.sys.axion_cpu_big=$(AXION_CPU_BIG_CORES) \
+     persist.sys.axion_cpu_small=$(AXION_CPU_SMALL_CORES)
+
 TARGET_DISABLE_EPPE := true
 PRODUCT_NAME := lineage_X6739
 PRODUCT_DEVICE := X6739
