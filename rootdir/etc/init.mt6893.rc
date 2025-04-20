@@ -1115,5 +1115,3 @@ on property:sys.boot_completed=1
     write /proc/eem/EEM_DET_BL/eem_offset "-11"
     write /proc/eem/EEM_DET_L/eem_offset "-11"
     write /proc/eem/EEM_DET_CCI/eem_offset "-7"
-    write /proc/eemg/EEMG_DET_GPU/eemg_offset "-2"
-    write /proc/eemg/EEMG_DET_GPU_HI/eemg_offset "-2"
