@@ -453,6 +453,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.transsion
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Required for QPR3
 PRODUCT_PACKAGES += \
     libdumpstateutil.vendor
