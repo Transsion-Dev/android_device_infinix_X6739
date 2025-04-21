@@ -121,12 +121,12 @@ PRODUCT_COPY_FILES += \
 
 # Dalvik configs
 PRODUCT_VENDOR_PROPERTIES += \
-    dalvik.vm.heapstartsize=16m \
+    dalvik.vm.heapstartsize=24m \
     dalvik.vm.heapgrowthlimit=256m \
     dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.heapminfree=512k \
-    dalvik.vm.heapmaxfree=8m
+    dalvik.vm.heaptargetutilization=0.46 \
+    dalvik.vm.heapminfree=8m \
+    dalvik.vm.heapmaxfree=48m
 
 # Display
 TARGET_SCREEN_HEIGHT := 2400
@@ -452,6 +452,9 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.transsion
+
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Required for QPR3
 PRODUCT_PACKAGES += \
