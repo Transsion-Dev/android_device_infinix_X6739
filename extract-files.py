@@ -14,6 +14,13 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'device/infinix/X6739',
+    'hardware/mediatek',
+    'hardware/mediatek/libmtkperf_client',
+    'hardware/transsion',
+]
+
 blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libsource.so': blob_fixup()
         .add_needed('libui_shim.so'),
@@ -52,6 +59,7 @@ module = ExtractUtilsModule(
     'X6739',
     'infinix',
     blob_fixups=blob_fixups,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
