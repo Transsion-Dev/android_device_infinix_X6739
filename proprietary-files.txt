@@ -1207,10 +1207,10 @@ vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libwvhidl.so
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.transsion
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.transsion.rc
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.transsion|e3c30527b55fa4c119ab09dd34281042f80016e3
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.transsion.rc|17c22f612a15c8914d071c98b77d74189a6da5ef 
 vendor/etc/init/vendor.goodix.rc
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.transsion.xml
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.transsion.xml|14fb88872909eeef223734cdc5dcd3ddf9da7f2e
 vendor/lib/libMcClient.so
 vendor/lib64/hw/gf_fingerprint.default.so
 vendor/lib64/libgf_hal.so
