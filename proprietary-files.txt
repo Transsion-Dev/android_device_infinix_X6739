@@ -1005,7 +1005,6 @@ vendor/lib64/libtflite_native_inference.so
 vendor/lib64/libtflite_native_seginference.so
 vendor/lib64/libtrancamJsonConvertor.so
 vendor/lib64/libtrancam_filelockmgr.so
-vendor/lib64/libtranlog.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_mdmi_v2.8.2.so
 vendor/lib64/libtranslator_utils.so
@@ -1305,8 +1304,6 @@ vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/lbs_hidl_service-impl.so
-vendor/lib64/libforkexecwrap.so
-vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
