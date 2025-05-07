@@ -474,6 +474,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdumpstateutil.vendor
 
+# Required for BP1A
+PRODUCT_PACKAGES += \
+    libbase_shim
+
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v31/arm64/arch-arm-armv8-a/shared/vndk-core/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder-v31.so \
